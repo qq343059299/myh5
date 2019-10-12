@@ -13,21 +13,33 @@
             height: 100%;
         }
         @keyframes myfirst {
-              from {opacity: 0}
-              to {opacity: 100 }
-              from {opacity: 100}
-              to {opacity: 0 }
+            0% {opacity: 0}
+            50% {opacity: 100 }
+            60% {opacity: 0}
+            100% {opacity: 0 }
           }
         @keyframes mysecond {
-            from {opacity: 0}
-            to {opacity: 100 }
-            from {opacity: 100}
-            to {opacity: 0 }
+            0% {opacity: 0}
+            50%{opacity: 0 }
+            60%{opacity: 0 }
+            75% {opacity: 50}
+            100% {opacity: 100 }
         }
        h1{
-            animation: myfirst 10s infinite;
+           font-size:50px;
+           position:absolute;
+           width:100%;
+           text-align:center;
+           padding-top:20%;
+
+            animation: myfirst 5s infinite;
         }
         h2{
+            font-size:100px;
+            position:absolute;
+            width: 100%;
+            text-align:center;
+            padding-top:20%;
             animation: mysecond 5s infinite ;
         }
     </style>
