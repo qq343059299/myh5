@@ -13,11 +13,22 @@
             height: 100%;
         }
         @keyframes myfirst {
+              from {opacity: 0}
+              to {opacity: 100 }
+              from {opacity: 100}
+              to {opacity: 0 }
+          }
+        @keyframes mysecond {
             from {opacity: 0}
             to {opacity: 100 }
+            from {opacity: 100}
+            to {opacity: 0 }
         }
        h1{
-            animation: myfirst 5s infinite;
+            animation: myfirst 10s infinite;
+        }
+        h2{
+            animation: mysecond 5s infinite ;
         }
     </style>
 
@@ -28,10 +39,7 @@
 </audio>
 
 <h1>老子馬銀濤</h1>
-<h2>静夜思</h2>
-<p>床前明月光,</p>
-<p>疑是地上霜。</p>
-<p>举头望明月，</p>
-<p>低头思故乡。</p>
+<h2>老子最帅</h2>
+
 </body>
 </html>
