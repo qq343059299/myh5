@@ -1,9 +1,9 @@
-html,body,page{
+html,body,div{
     height: 100%;
     width: 100%;
     margin: 0;
 }
-page{
+div{
     font-size: 180px;
     height: 100%;
     position:absolute;
