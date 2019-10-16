@@ -13,6 +13,8 @@ div{
 #c{
     background-color:lightgreen;
     animation:c 10s infinite;
+    background-image: url("../images/0.jpg");
+    background-size: 100% 100%;
 }
 #x{
     background-color:red;
@@ -26,6 +28,11 @@ div{
     background-color:black;
     color: white;
     animation: d 10s infinite;
+}
+#b{
+    font-size: 40px;
+    display: block;
+    animation: b 10s infinite;
 }
 @keyframes c {
     0%{opacity: 0}
@@ -51,5 +58,12 @@ div{
     0%{opacity: 0}
     60%{opacity: 0}
     80%{opacity: 100}
+    100%{opacity: 0}
+}
+@keyframes b {
+    0%{opacity: 0}
+    70%{opacity: 0}
+    80%{opacity: 100}
+    90%{opacity: 0}
     100%{opacity: 0}
 }
