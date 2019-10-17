@@ -1,5 +1,7 @@
-function WeDeTaoLu(){alert("子曰：\n 马银涛是个天才");
+function woDeTaoLu(){alert("子曰：\n 马银涛是个天才");
     alert("子曰：\n 马银涛牛皮");
     alert("子曰：\n 马银涛是个伟人");
 }
+woDeTaoLu();
+alert("真的牛哦");
 
