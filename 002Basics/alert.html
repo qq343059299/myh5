@@ -6,12 +6,16 @@
     <script src="./js/alert.js">
     </script>
     <script>
-        var price;
-        price=39.9;
-        var priceoff;
-        priceoff=0.3;
-        price=price*priceoff;
-        alert("现在价格是"+price);
+        var password=prompt("请输入密码");
+        if (password === 123) {
+            alert("密码正确")
+        }
+        else if(password === 456)
+        {alert("密码正确但权限不够")}
+        else {
+                alert("警报");
+                alert("密码错误")
+             }
     </script>
 </head>
 <body>
