@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>第二杯半价</title>
+    <style>
+        body{
+            font-size: 50px;
+        }
+    </style>
     <script>
+        document.write("我是输出！");
         var price,count;
         price=prompt("您要的价格为多少？");
         count=prompt("您想要几杯？");
         if(isNaN(count)||isNaN(price)) {
-            alert("这根本不是数字！")
+            document.write("这根本不是数字！")
         }
         else{
             if(count*1%1!==0||price*1%1!==0){
-                alert("这根本不是整数！")
+                document.write("这根本不是整数！")
             }
             else{
                 if(count*1%2===0){
                 totalprice=count*price*3/4
                 }
                 else{totalprice=(count*1+1)*price*3/4-price/2}
-                alert("您现在一共消费"+totalprice+"元");
+                document.write("您现在一共消费"+totalprice+"元");
             }
         }
 
